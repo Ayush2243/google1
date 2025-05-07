@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore exciting games with our curated collection." />
+  <title>Ultimate Game Hub</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #181818;
+      color: white;
+    }
+    header {
+      background-color: #222;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #ee0b0b;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ee0606;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1600x600?text=Ultimate+Game+Hub') no-repeat center/cover;
+      padding: 5rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 3rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background-color: #eb081b;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #f50505;
+    }
+    .game-preview {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 4rem 2rem;
+      background-color: #333;
+    }
+    .game-card {
+      background-color: #444;
+      padding: 1.5rem;
+      width: 300px;
+      text-align: center;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .game-card h3 {
+      margin-top: 1rem;
+    }
+    .game-card p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .footer {
+      background-color: #222;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Ultimate Game Hub</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h2>Welcome to Ultimate Game Hub</h2>
+    <p>Your one-stop destination for the best online games. Play, discover, and join the gaming revolution!</p>
+    <a href="#games" class="cta-button">Explore Games</a>
+  </section>
+
+  <!-- Game Previews -->
+  <section class="game-preview" id="games">
+    <div class="game-card">
+      <img src="https://images.app.goo.gl/Ge5txo8r6EP97biA6" alt="Game 1" />
+      <h3>Space Invaders</h3>
+      <p>Fight off waves of aliens in this retro classic!</p>
+      <a href="https://elgoog.im/space-invaders/" class="cta-button">Play Now</a>
+    </div>
+    <div class="game-card">
+      <img src="https://via.placeholder.com/300x200?text=Game+2" alt="Game 2" />
+      <h3>Castle Defense</h3>
+      <p>Defend your castle against incoming waves of enemies!</p>
+      <a href="https://www.sheppardsoftware.com/brain/castle-defense/" class="cta-button">Play Now</a>
+    </div>
+    <div class="game-card">
+      <img src="https://via.placeholder.com/300x200?text=Game+3" alt="Game 3" />
+      <h3>Zombie Survival</h3>
+      <p>Survive the zombie apocalypse by managing your resources!</p>
+      <a href="https://store.steampowered.com/app/2268560/Zombie_Survival_Game_Online/" class="cta-button">Play Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" style="padding: 4rem 2rem; background-color: #333; text-align: center;">
+    <h2>About Ultimate Game Hub</h2>
+    <p>Ultimate Game Hub is your destination for a curated selection of fun, action-packed online games. Whether you love shooting, puzzles, or strategy, we have something for everyone!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="padding: 4rem 2rem; background-color: #222; text-align: center;">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us at: <a href="mailto:contact@gamehub.com">ayushlanjewar22@gmail.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Ultimate Game Hub. All rights reserved.</p>
+    <p>
+      <a href="#home">Home</a> | 
+      <a href="#games">Games</a> | 
+      <a href="#about">About</a> | 
+      <a href="#contact">Contact</a>
+    </p>
+  </footer>
+
+</body>
+</html>
+
